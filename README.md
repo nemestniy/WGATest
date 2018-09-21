@@ -1,0 +1,2 @@
+# WGATest
+Test for WarGamingAcademy
