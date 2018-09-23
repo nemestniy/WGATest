@@ -51,7 +51,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -65,7 +65,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.16, y: 0.16}
+  m_Size: {x: 0.13, y: 0.13}
   m_EdgeRadius: 0
 --- !u!114 &114394384080468910
 MonoBehaviour:
@@ -78,7 +78,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 161cfaba15514f3418a9fa4927d6f821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _onBlock: 0
+  Map: {fileID: 0}
+  _freePlace: {fileID: 0}
 --- !u!212 &212839734319074676
 SpriteRenderer:
   m_ObjectHideFlags: 1
