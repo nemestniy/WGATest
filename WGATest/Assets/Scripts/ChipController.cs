@@ -12,10 +12,6 @@ public class ChipController : MonoBehaviour {
     public event MethoodsContainer OnButton;
     public event MethoodsContainer EnterCollider;
     public event MethoodsContainer ExitCollider;
-    public event MethoodsContainer OnLeft;
-    public event MethoodsContainer OnRight;
-    public event MethoodsContainer OnUp;
-    public event MethoodsContainer OnDown;
 
     private float _mouseX;
     private float _mouseY;
@@ -38,26 +34,6 @@ public class ChipController : MonoBehaviour {
         if (Input.GetButton(_leftMouseButton))
         {
             OnButton();                                             //Левая клавиша мыши зажата
-        }
-
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            OnLeft();                                               //Нажатие на клавишу "Влево"
-        }
-
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            OnRight();                                              //Нажатие на клавишу "Вправо"
-        }
-
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            OnUp();                                                 //Нажатие на клавишу "Вверх"
-        }
-
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            OnDown();                                               //Нажатие на клавишу "Вниз"
         }
     }
 

@@ -2023,32 +2023,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fba9b31adc4bf346bdc16d71ce38812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _freePlaces:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  Block: {fileID: 0}
+  NumberOfBlocks: 0
 --- !u!114 &114261907152450090
 MonoBehaviour:
   m_ObjectHideFlags: 1

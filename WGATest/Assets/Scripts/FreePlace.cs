@@ -9,7 +9,7 @@ public class FreePlace : ChipController {
     private Collider2D[] PlacesX;
     private Collider2D[] PlacesY;
 
-    private void OnValidate()
+    private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _spriteRenderer.color = new Vector4(0.5f, 0.5f, 0.5f, 1);
@@ -22,6 +22,8 @@ public class FreePlace : ChipController {
 
     private void Start()
     {
+        
+
         Vector2 x = new Vector2(transform.position.y / 2, transform.localScale.x * 2);
         PlacesX = Physics2D.OverlapBoxAll(transform.position, x, 0);                            //Получение соседей по оси Х
         Vector2 y = new Vector2(transform.localScale.y * 2, transform.localScale.y / 2);    
